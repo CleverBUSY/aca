@@ -121,11 +121,11 @@ const Content = () => {
                     console.log(elemen.skill),
                     <div>
                         <h1
-                          style={{ paddingLeft: "20px", color: "red" }}
+                          style={{ paddingLeft: "20px" }}
                           className="text-skill"
                           key={index}
                           >
-                          <span style={{color: "white"}}>{elemen.skill}</span>
+                          <span>{elemen.skill}</span>
                         </h1>
                         </div>
                     ))}

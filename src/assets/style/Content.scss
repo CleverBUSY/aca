@@ -96,12 +96,12 @@
   font-size: 32px;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent !important;
+  background: linear-gradient(to right, #1B426F 0%, #1D4BA8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .text-pro {
-  color: white;
+  color: black;
   font-size: 17px !important;
   margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -120,35 +120,35 @@
       border-bottom: 1px solid #706780;
       border-radius: 10px;
       width: 300px;
-      color: white;
+      color: black;
       height: 100%;
       position: sticky;
       padding-bottom: 20px;
       top: 9rem;
       .logo-navigation {
-        background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent ;
+        background: linear-gradient(to right, #1B426F 0%, #1D4BA8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
       }
     }
     .lorem {
-      color: white !important;
+      color: black !important;
       max-width: 800px;
 
       h2 {
         border-bottom: 1px solid rgba(34, 60, 80, 0.6);
-        box-shadow: 0px 5px 13px -5px rgba(34, 60, 80, 0.6);
+        // box-shadow: 0px 5px 13px -5px rgba(34, 60, 80, 0.6);
         padding-bottom: 18px;
         font-size: 30px;
         border-bottom: 1px solid red($color: #000000);
-        background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent ;
+        background: linear-gradient(to right, #1B426F 0%, #1D4BA8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
         font-family: Arial, Helvetica, sans-serif;
         transition: 0.8s;
       }
       .target {
-        color: #ffff;
+        color: black;
         font-size: 16.5px;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 30px;
@@ -157,9 +157,9 @@
         width: 800px;
       }
       .target:hover {
-        background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent ;
+        background: linear-gradient(to right, #1B426F 0%, #1D4BA8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
         letter-spacing: 0.08px;
         font-size: 16.7px;
         width: 820px;
@@ -167,20 +167,20 @@
       .skills {
         margin-top: 20px;
         .logo-text {
-          background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent ;
+          background: linear-gradient(to right, #1B426F 0%, #1D4BA8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
           font-size: 30px;
           font-weight: 400;
           font-family: Arial, Helvetica, sans-serif;
           margin-bottom: 20px;
-          border-bottom: 1px solid #dad6ca;
+          border-bottom: 1px solid #000000;
           padding-bottom: 20px;
           transition: 1s;
         }
         .text-skill {
           font-size: 17px;
-          color: white !important;
+          color: black !important;
           opacity: 2 !important;
           font-weight: 100;
           font-family: Arial, Helvetica, sans-serif;
@@ -190,9 +190,9 @@
 
         }
         .text-skill:hover {
-          background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          background: linear-gradient(to right, #1B426F 0%, #1D4BA8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
           font-size: 17.4px;
           transform: scaleX(1.09);
         }
@@ -202,11 +202,11 @@
       font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
       font-weight: 900;
-      color: red;
+      color: black;
       margin-bottom: 20px;
     }
     .text-nav {
-      color: white;
+      color: black ;
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
       font-weight: 100;
@@ -214,9 +214,9 @@
       transition: 0.6s;
     }
     .text-nav:hover {
-      background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+      background: linear-gradient(to right, #1B426F 0%, #1D4BA8 100%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent !important;
+      -webkit-text-fill-color: transparent;
       font-size: 21px;
     }
   }
